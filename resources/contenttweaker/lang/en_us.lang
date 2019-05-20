@@ -1,0 +1,82 @@
+item.contenttweaker.neturalenchanted.name=Netural Enchanted
+item.contenttweaker.neturalenchid.name=Netural Pasta
+item.contenttweaker.glowpack.name=Dense Glowstone Plate
+item.contenttweaker.telesource.name=Door to the Void of Finite 
+item.contenttweaker.finitequartz.name=Quartz Natinium
+item.contenttweaker.diamond_shard.name=Diamond Shard
+item.contenttweaker.infinity_coating.name=Infinity Coating
+item.contenttweaker.tinglowstone.name=Glowstone Plate
+
+item.contenttweaker.gear_redstone.name=Redstone Gear
+item.contenttweaker.redstone_plate.name=Redstone Plate
+item.contenttweaker.gear_iron.name=Iron Gear
+item.contenttweaker.redstone_ingot.name=Redstone Ingot
+
+item.contenttweaker.me_copper.name=Crystallic Copper Dust
+item.contenttweaker.me_gold.name=Crystallic Gold Dust
+item.contenttweaker.me_iron.name=Crystallic Iron Dust
+item.contenttweaker.me_lead.name=Crystallic Lead Dust
+item.contenttweaker.me_tin.name=Crystallic Tin Dust
+
+item.contenttweaker.stone_hammer.name=Stone Hammer
+item.contenttweaker.redstone_forge_hammer.name=Redstone Forge Hammer
+item.contenttweaker.sand_hammer.name=Sand Forge Hammer
+item.contenttweaker.lapis_hammer.name=Lapis Lazuli Forge Hammer
+
+# block -------------------------------------------------------------
+tile.contenttweaker.pack_wool.name=Packed Wool
+tile.contenttweaker.animal_farming_package.name=Agriculture Package
+tile.contenttweaker.dense_lead.name=Dense Lead Ore
+tile.contenttweaker.dense_tin.name=Dense Tin Ore
+tile.contenttweaker.dense_copper.name=Dense Copper Ore
+
+tile.contenttweaker.natron_lamp.name=Natron Lamp
+tile.contenttweaker.salt_lamp.name=Salt Lamp
+tile.contenttweaker.dense_stone.name=Dense Stone
+tile.contenttweaker.hard_dense_stone.name=Super Dense Stone
+tile.contenttweaker.extreme_dense_stone.name=Compressed Stone
+
+tile.contenttweaker.unsolid_marble.name=Unsolid Marble
+
+# block -------------------------------------------------------------
+
+#crop jelly
+item.contenttweaker.iron_jelly.name=Gray Jelly
+item.contenttweaker.iron_hard.name=Gray Jelly Chunk
+item.contenttweaker.iron_final.name=Iron Concentrated Stone
+item.contenttweaker.iron_chunk.name=Iron Concentrated Chunk
+item.contenttweaker.iron_logic.name=Iron Universe Refraction
+
+item.contenttweaker.copper_jelly.name=Brown Jelly
+item.contenttweaker.copper_hard.name=Brown Jelly Chunk
+item.contenttweaker.copper_final.name=Copper Concentrated Stone
+item.contenttweaker.copper_chunk.name=Copper Concentrated Chunk
+item.contenttweaker.copper_logic.name=Copper Universe Refraction
+
+item.contenttweaker.tin_jelly.name=Teal Jelly
+item.contenttweaker.tin_hard.name=Teal Jelly Chunk
+item.contenttweaker.tin_final.name=Tin Concentrated Stone
+item.contenttweaker.tin_chunk.name=Tin Concentrated Chunk
+item.contenttweaker.tin_logic.name=Tin Universe Refraction
+
+item.contenttweaker.gold_jelly.name=Gold Jelly
+item.contenttweaker.gold_hard.name=Gold Jelly Chunk
+item.contenttweaker.gold_final.name=Gold Concentrated Stone
+item.contenttweaker.gold_chunk.name=Gold Concentrated Chunk
+item.contenttweaker.gold_logic.name=Gold Universe Refraction
+
+#crop jelly
+
+
+
+#complexSKY Block
+item.contenttweaker.unpower_redstone.name=Unpowered Redstone
+item.contenttweaker.charcoal_plate.name=Dense Charcoal Plate
+item.contenttweaker.manipulator_frame.name=Nature Behavior Manipulator Logic
+item.contenttweaker.universe_manipulator.name=Universe Refraction Logic
+item.contenttweaker.red_universe_manipulator.name=Red Universal Manipulator
+item.contenttweaker.dark_infinity_core.name=Infinity Dark Matter Core
+
+item.contenttweaker.lifeball.name=Heart or Forest
+item.contenttweaker.artificial_coal.name=Artificial Coal
+
