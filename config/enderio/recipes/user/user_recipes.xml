@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+  <!-- phtovoltic -->
+  <recipe name="Alloy: Photovoltaic Plate" required="true">
+    <alloying energy="15000" exp="0.5">
+      <input name="itemPowderPhotovoltaic" amount="3"/>
+	  <input name="ic2:crafting:1"/>
+	  <input name="minecraft:gold_ingot"/>
+      <output name="itemPlatePhotovoltaic"/>
+    </alloying>
+  </recipe>
+
+  
+  <!-- =============================================== Alloy crafting -->
+  <!-- ============================================================== -->
+  <recipe name="Alloy: Electrical Steel" required="true">
+    <alloying energy="10000" exp="0.5">
+      <input name="ic2:ingot:5"/>
+      <input name="dustCoal" amount="2"/>
+      <input name="itemSilicon"/>
+      <output name="ingotElectricalSteel"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Energetic Alloy" required="true">
+    <alloying energy="10000" exp="0.7">
+      <input name="contenttweaker:redstone_ingot"/>
+      <input name="ingotGold"/>
+      <input name="contenttweaker:tinglowstone" amount="2"/>
+      <output name="ingotEnergeticAlloy"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Vibrant Alloy" required="true">
+    <alloying energy="10000" exp="1">
+      <input name="ingotEnergeticAlloy"/>
+      <input name="oredict:enderpearl"/>
+	  <input name="oredict:ingotBronze" amount="2"/>
+      <output name="ingotVibrantAlloy"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Redstone Alloy" required="true">
+    <alloying energy="10000" exp="0.5">
+      <input name="contenttweaker:redstone_ingot" amount="2"/>
+      <input name="itemSilicon"/>
+      <output name="ingotRedstoneAlloy"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Conductive Iron" required="true">
+    <alloying energy="10000" exp="0.5">
+      <input name="contenttweaker:redstone_ingot"/>
+      <input name="ic2:ingot:5"/>
+      <output name="ingotConductiveIron"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Pulsating Iron" required="true">
+    <alloying energy="10000" exp="0.7">
+      <input name="ic2:ingot:5"/>
+      <input name="oredict:enderpearl" amount="2"/>
+	  <input name="minecraft:iron_ingot" amount="4"/>
+      <output name="ingotPulsatingIron"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Dark Steel" required="true">
+    <alloying energy="20000" exp="0.5">
+      <input name="ic2:ingot:5" amount="5"/>
+      <input name="dustCoal" amount="3"/>
+      <input name="obsidian"/>
+      <output name="ingotDarkSteel"/>
+    </alloying>
+  </recipe>
+
+	  <recipe name="Alloy: End Steel" required="true">
+		<alloying energy="20000" exp="0.5">
+			  <input name="oredict:endstone"/>
+			  <input name="ingotDarkSteel"/>
+			  <input name="obsidian"/>
+			  <output name="ingotEndSteel"/>
+		</alloying>
+	  </recipe>
+  
+    <recipe name="Alloy: Steel" required="false">
+		<alloying energy="20000" exp="0">
+		  <input name="ingotIron" amount="2"/>
+		  <input name="dustCoal" amount="2"/>
+		  <output name="ingotSteel"/>
+		</alloying>
+	</recipe>
+  
+    <recipe name="Alloy: Conduit Binder" required="true">
+		<alloying energy="10000" exp="0.5">
+			<input name="enderio:item_material:22" amount="2"/>
+			<input name="ic2:plate:0"/>
+			<input name="ic2:plate:8" amount="2"/>
+			<output name="enderio:item_material:4" amount="2"/>
+		</alloying>
+	</recipe>
+	
+	<!-- =========================================== End Alloy Crafting -->
+    <!-- ============================================================== -->
+	
+	<!-- ===================================================Ender Pearl -->
+    <!-- ============================================================== -->
+		<recipe name="Cactus: ink" required="true">
+		<alloying energy="30000" exp="0.1">
+			<input name="ic2:crafting"/>
+			<output name="minecraft:dye"/>
+		</alloying>
+	</recipe>
+	
+	<recipe name="Cactus: ink_pearl" required="true">
+		<alloying energy="10000" exp="0.5">
+			<input name="vanillafoodpantry:ink_pearl_shard"/>
+			<input name="minecraft:dye:2" amount="12"/>
+			<output name="vanillafoodpantry:ink_pearl"/>
+		</alloying>
+	</recipe>
+	<recipe name="Cactus: ink_pearl_shard" required="true">
+		<alloying energy="30000" exp="0.1">
+			<input name="minecraft:dye"/>
+			<input name="minecraft:dye:2" amount="4"/>
+			<input name="quark:glass_shards:*" />
+			<output name="vanillafoodpantry:ink_pearl_shard"/>
+		</alloying>
+	</recipe>
+	<!-- ===============================================END Ender Pearl -->
+    <!-- ============================================================== -->
+	
+	<!-- ===============================================Terracotta -->
+    <!-- ============================================================== -->
+	
+	<recipe name="Terracotta" required="true">
+		<alloying energy="10000" exp="0.5">
+			<input name="minecraft:brick_block"/>
+			<input name="minecraft:brick" amount="2"/>
+			<output name="minecraft:hardened_clay" amount="2"/>
+		</alloying>
+	</recipe>
+	
+	<!-- ===============================================NEI -->
+    <!-- ============================================================== -->
+	
+	<recipe name="NEI" required="true">
+		<alloying energy="30000" exp="0.98">
+			<input name="contenttweaker:animal_farming_package" amount="3"/>
+			<input name="contenttweaker:neturalenchid" amount="3"/>
+			<output name="contenttweaker:neturalenchanted"/>
+		</alloying>
+	</recipe>
+	
+</enderio:recipes>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+<!-- Alloying -->
+  <recipe name="red_manipulator: Iron" required="true">
+    <alloying energy="60000" exp="0.9">
+      <input name="contenttweaker:extreme_dense_stone"/>
+      <input name="contenttweaker:red_universe_manipulator"/>
+	  <input name="contenttweaker:iron_chunk" />
+      <output name="minecraft:iron_ore" amount="9"/>
+    </alloying>
+  </recipe>
+  
+  <recipe name="red_manipulator: Copper" required="true">
+    <alloying energy="60000" exp="0.9">
+      <input name="contenttweaker:extreme_dense_stone"/>
+      <input name="contenttweaker:red_universe_manipulator"/>
+	  <input name="contenttweaker:copper_chunk" />
+      <output name="ic2:resource:1" amount="9"/>
+    </alloying>
+  </recipe>
+  
+  <recipe name="red_manipulator: Tin" required="true">
+    <alloying energy="60000" exp="0.9">
+      <input name="contenttweaker:extreme_dense_stone"/>
+      <input name="contenttweaker:red_universe_manipulator"/>
+	  <input name="contenttweaker:tin_chunk" />
+      <output name="ic2:resource:3" amount="9"/>
+    </alloying>
+  </recipe>
+  
+  <recipe name="red_manipulator: Gold" required="true">
+    <alloying energy="60000" exp="0.9">
+      <input name="contenttweaker:extreme_dense_stone"/>
+      <input name="contenttweaker:red_universe_manipulator"/>
+	  <input name="contenttweaker:gold_chunk" />
+      <output name="minecraft:gold_ore" amount="9"/>
+    </alloying>
+  </recipe>
+  
+</enderio:recipes>
