@@ -45,24 +45,28 @@ item.contenttweaker.iron_jelly.name=Gray Jelly
 item.contenttweaker.iron_hard.name=Gray Jelly Chunk
 item.contenttweaker.iron_final.name=Iron Concentrated Stone
 item.contenttweaker.iron_chunk.name=Iron Concentrated Chunk
+item.contenttweaker.red_iron_chunk.name=Powered Iron Concentrated Chunk
 item.contenttweaker.iron_logic.name=Iron Universe Refraction
 
 item.contenttweaker.copper_jelly.name=Brown Jelly
 item.contenttweaker.copper_hard.name=Brown Jelly Chunk
 item.contenttweaker.copper_final.name=Copper Concentrated Stone
 item.contenttweaker.copper_chunk.name=Copper Concentrated Chunk
+item.contenttweaker.red_copper_chunk.name=Powered Copper Concentrated Chunk
 item.contenttweaker.copper_logic.name=Copper Universe Refraction
 
 item.contenttweaker.tin_jelly.name=Teal Jelly
 item.contenttweaker.tin_hard.name=Teal Jelly Chunk
 item.contenttweaker.tin_final.name=Tin Concentrated Stone
 item.contenttweaker.tin_chunk.name=Tin Concentrated Chunk
+item.contenttweaker.red_tin_chunk.name=Powered Tin Concentrated Chunk
 item.contenttweaker.tin_logic.name=Tin Universe Refraction
 
 item.contenttweaker.gold_jelly.name=Gold Jelly
 item.contenttweaker.gold_hard.name=Gold Jelly Chunk
 item.contenttweaker.gold_final.name=Gold Concentrated Stone
 item.contenttweaker.gold_chunk.name=Gold Concentrated Chunk
+item.contenttweaker.red_gold_chunk.name=Powered Gold Concentrated Chunk
 item.contenttweaker.gold_logic.name=Gold Universe Refraction
 
 #crop jelly
@@ -72,6 +76,7 @@ item.contenttweaker.gold_logic.name=Gold Universe Refraction
 #complexSKY Block
 item.contenttweaker.unpower_redstone.name=Unpowered Redstone
 item.contenttweaker.charcoal_plate.name=Dense Charcoal Plate
+item.contenttweaker.netural_cable.name=Netural Cable
 item.contenttweaker.manipulator_frame.name=Nature Behavior Manipulator Logic
 item.contenttweaker.universe_manipulator.name=Universe Refraction Logic
 item.contenttweaker.red_universe_manipulator.name=Red Universal Manipulator

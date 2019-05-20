@@ -76,7 +76,6 @@ for i in 0 .. 4 {
 // ---------------------------------- END make chunk
 
 
-
 var results = [<ic2:dust:8>, <ic2:dust:4>, <ic2:dust:17>, <ic2:dust:7>] as IItemStack[];
 var ingots  = [<minecraft:iron_ingot>, <forestry:ingot_copper>, <forestry:ingot_tin>, <minecraft:gold_ingot>] as IItemStack[];
 for i in 0 .. 4 {
@@ -93,10 +92,12 @@ var end = [
 ] as IItemStack[];
 
 val logic = <contenttweaker:universe_manipulator>;
+
+
 /*
-for i in 0 .. 4 {
-	recipes.addShapeless(end[i] * 2, [
-		hammer.transformDamage(1), logic, cs[i], cs[i]
-	]);
-}
+	for i in 0 .. 4 {
+		recipes.addShapeless(end[i] * 2, [
+			hammer.transformDamage(1), logic, cs[i], cs[i]
+		]);
+	}
 */

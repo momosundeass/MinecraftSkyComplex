@@ -16,7 +16,6 @@ val cs = [
 
 val logic = <contenttweaker:universe_manipulator>;
 val redlogic = <contenttweaker:red_universe_manipulator>;
-
 val cobble = <contenttweaker:extreme_dense_stone>;
 
 val ore = [
@@ -28,19 +27,19 @@ val ore = [
 	<ic2:resource:4>, // [5] uranium
 ]as IItemStack[];
 /*
-for i in 0 .. 4 {
-	recipes.addShapeless(end[i] * 2, [
-		hammer.transformDamage(1), logic, cs[i], cs[i]
-	]);
-}
+	for i in 0 .. 4 {
+		recipes.addShapeless(end[i] * 2, [
+			hammer.transformDamage(1), logic, cs[i], cs[i]
+		]);
+	}
 
-for i in 0 .. 4 {
-	recipes.addShaped(ore[i]*9, [
-		[cs[i]],
-		[cobble],
-		[redlogic]
-	]);
-}
+	for i in 0 .. 4 {
+		recipes.addShaped(ore[i]*9, [
+			[cs[i]],
+			[cobble],
+			[redlogic]
+		]);
+	}
 */
 
 recipes.addShaped(ore[4]*6, [

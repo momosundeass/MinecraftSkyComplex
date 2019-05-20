@@ -24,11 +24,14 @@ for metal in metals {
 	ne.rarity = "rare";
 	ne.register();
 	
+	ne = VanillaFactory.createItem("red_" + metal + "_chunk");
+	ne.maxStackSize = 32;
+	ne.rarity = "rare";
+	ne.register();
+	
 	ne = VanillaFactory.createItem(metal + "_logic");
 	ne.maxStackSize = 16;
 	ne.rarity = "epic";
 	ne.glowing = true;
 	ne.register();
-	
-	
 }
