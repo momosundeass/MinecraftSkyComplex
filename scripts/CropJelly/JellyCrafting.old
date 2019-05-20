@@ -1,0 +1,67 @@
+import crafttweaker.item.IItemStack;
+
+val hammer = <contenttweaker:lapis_hammer>.anyDamage();
+
+val jellys = [ 
+	<contenttweaker:iron_jelly>, 
+	<contenttweaker:copper_jelly>, 
+	<contenttweaker:tin_jelly>,
+	<contenttweaker:gold_jelly>
+ ] as IItemStack[];
+// ------------------- JELLY CRAFTING
+
+
+// --------------- END JELLY CRAFTING
+
+val hards = [ 
+	<contenttweaker:iron_hard>, 
+	<contenttweaker:copper_hard>, 
+	<contenttweaker:tin_hard>,
+	<contenttweaker:gold_hard>
+ ] as IItemStack[];
+ 
+val finals = [
+	<contenttweaker:iron_final>, 
+	<contenttweaker:copper_final>, 
+	<contenttweaker:tin_final>,
+	<contenttweaker:gold_final>
+] as IItemStack[];
+
+val metal = ["Iron", "Copper", "Tin", "Gold"] as string[];
+val prefix = ["Gray", "Brown", "Teal", "Gold"] as string[];
+ 
+// make chunk
+for i in 0 .. 4 {
+	var j = jellys[i];
+	recipes.addShapeless(hards[i], [ j, j, j, j, j, j, j, j, j] );
+}
+
+for i in 0 .. 4 {
+	var j = hards[i].withEmptyTag();
+	var nameShow = prefix[i] + " Jelly Aqua Chunk"; 
+	var result = hards[i].withTag({
+			display: {
+				Name: nameShow,
+				Lore: ["Aqua"]
+				}
+			});
+	recipes.addShapeless(result, [ j, j, j, j, j, j, j, j, j] );
+	mods.jei.JEI.addItem(result);
+}
+
+
+
+
+
+for i in 0 .. 4 {
+	var nameShow = prefix[i] + " Jelly Aqua Chunk";
+	var j = hards[i].onlyWithTag({
+		display: {
+				Name: nameShow,
+				Lore: ["Aqua"]
+				}
+			});
+	recipes.addShapeless(finals[i], [ j, j, j, j, j, j, j, j, j] );
+}
+
+

@@ -1,0 +1,88 @@
+nutrient pasta
+Skyblock play
+
+Iron Gear
+
+portal & bedrock remover
+
+Redstone Ore
+
+Put soulsand in nether
+
+Undrying => Nether rack => soul sand
+
+new flexiblecasing recipe => slimeBlock
+heart reduce power more
+less crafting heart powder
+
+PIG
+COW
+HORSE
+
+RABBIT
+LAMA
+
+:COMPLETE
+
+EnderIO alloy new recipes
+Converter new texture
+
+log to netural pasta
+new ender IO machine recipe
+new plants2:plantball recipe
+EnderIO:Basic Capacitor use forestry:Electron tube
+EnderIO:D-Layer Capacitor => IC2:Adv Elec => EnderIO: Octade Capacitor
+
+EnderIO:Telepad use EnderIO:D-Layer Capacitor
+EnderIO:Telepad => IC2:Teleport
+
+swap side teleport
+Quartz
+vine
+wool
+
+dirt compressor
+dirt extractor
+
+Triple metal
+Engine
+Cherry
+
+Steel => Alloy smelter
+Redstone
+Obisidian -> diamond shard -> ins diamond
+
+Gear
+
+new conduit
+
+Bee Hive
+Map respawn bug
+furture mud block at sky map
+
+distince crop yield difference result
+
+
+ore washed biotite
+Quartz
+Rubber Tree
+
+BLAZE
+Useful Nether Wart
+Cactus and Sugar Cane + ic2Plantball = plant2:Ball
+Nether Wart => undrying
+
+Blaze furnace => red logic
+//Remove final tier jellys
+Iron Ore
+Gold Ore
+Lead Ore
+Uranium Ore
+
+
+Change some item graphic
+
+Cactus => Ender Pearl
+CHICKEN
+SHEEP
+Pulsating iron
