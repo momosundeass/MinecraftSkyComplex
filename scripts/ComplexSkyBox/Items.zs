@@ -37,6 +37,10 @@ ne.maxStackSize = 64;
 ne.rarity = "UNCOMMON";
 ne.register();
 
+ne = VanillaFactory.createItem("netural_cable");
+ne.maxStackSize = 64;
+ne.register();
+
 ne = VanillaFactory.createItem("manipulator_frame");
 ne.maxStackSize = 64;
 ne.rarity = "UNCOMMON";

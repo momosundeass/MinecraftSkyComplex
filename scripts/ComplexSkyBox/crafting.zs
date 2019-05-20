@@ -22,10 +22,19 @@ recipes.addShaped(core, [
 
 val logic = <contenttweaker:manipulator_frame>;
 val nei = <contenttweaker:neturalenchanted>;
+val netural_cable = <contenttweaker:netural_cable>;
+val redstone = <minecraft:redstone>;
+val cable = <ic2:cable:0>.withTag({type:0 as byte, insulation:1 as byte});
+
+recipes.addShaped(netural_cable, [
+	[redstone, nei, redstone],
+	[null, cable, null],
+]);
+
 recipes.addShaped(logic, [
-	[nei, null, nei],
-	[nei, charcoalPlate, nei],
-	[nei, null, nei]
+	[netural_cable, null,          netural_cable],
+	[netural_cable, charcoalPlate, netural_cable],
+	[netural_cable, null,          netural_cable]
 ]);
 
 recipes.addShaped(<contenttweaker:universe_manipulator> * 3, [
