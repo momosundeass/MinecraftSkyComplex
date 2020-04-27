@@ -19,6 +19,32 @@
 *.tar.gz
 *.rar
 
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 shaderpacks/
@@ -39,11 +65,15 @@ optionsof.txt
 options.txt
 hotbar.nbt
 screenshots/
-assets/
 *.psd
 saves/
 TempOptifineStore-1.0.json
-config/splash.properties
-config/jei/worldSettings.cfg
-config/InvTweaks.cfg
-config/IC2.ini
+/.mixin.out/
+/BotaniaVars.dat
+/patchouli_data.json
+/reauth.toml
+/TLauncher.exe
+/ct_dumps/
+/libraries/
+/assets/
+/update1/
