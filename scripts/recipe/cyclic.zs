@@ -51,7 +51,7 @@ val cyc_cry = <item:cyclic:solidifier>;
 
 val clickmachine = <item:clickmachine:auto_clicker>;
 craftingTable.removeRecipe(clickmachine);
-craftingTable.addShaped("balanced_breaker", breaker, 
+craftingTable.addShaped("balanced_clickmachine", clickmachine, 
 [
 	[chorus_flower, structure, chorus_flower],
 	[stone, placer, stone],
