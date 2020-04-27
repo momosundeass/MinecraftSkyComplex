@@ -1,0 +1,7 @@
+#Multiplier for the time when it's day (with this set to 2 the day will be twice as longer thus duration = 20 minutes)
+#Range: 1.0 ~ 128.0
+day_length_multiplier = 3.0
+#Multiplier for the time when it's night (with this set to 2 the night will be twice as longer thus duration = 20 minutes)
+#Range: 1.0 ~ 128.0
+night_length_multiplier = 3.0
+

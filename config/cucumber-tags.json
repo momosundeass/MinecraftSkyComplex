@@ -1,0 +1,15 @@
+{
+  "__comment": "Instructions: https://mods.blakebr0.com/docs/cucumber/tags-config",
+  "forge:ingots/aluminum": "null",
+  "forge:ingots/bronze": "mekanism:ingot_bronze",
+  "forge:ingots/copper": "mekanism:ingot_copper",
+  "forge:ingots/electrum": "null",
+  "forge:ingots/invar": "null",
+  "forge:ingots/lead": "null",
+  "forge:ingots/nickel": "null",
+  "forge:ingots/platinum": "null",
+  "forge:ingots/silver": "null",
+  "forge:ingots/steel": "mekanism:ingot_steel",
+  "forge:ingots/tin": "mekanism:ingot_tin",
+  "forge:ingots/uranium": "null"
+}
