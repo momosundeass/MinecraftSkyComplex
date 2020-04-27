@@ -1,0 +1,32 @@
+{
+	"type": "extendedcrafting:shaped_table",
+	"pattern": [
+		"XPPPPPX",
+		"PXXAXXP",
+		"PXXCXXP",
+		"PACECAP",
+		"PXXCXXP",
+		"PXXAXXP",
+		"XPPPPPX"
+	],
+	"key": {
+		"E": {
+			"item": "minecraft:emerald"
+		},
+		"P": {
+			"tag": "forge:dyes/purple"
+		},
+		"C": {
+			"item": "minecraft:clock"
+		},
+		"A": {
+			"item": "botania:rune_air"
+		},
+		"X": {
+			"item": "minecraft:ender_pearl"
+		}
+	},
+	"result": {
+		"item": "waystones:warp_stone"
+	}
+}

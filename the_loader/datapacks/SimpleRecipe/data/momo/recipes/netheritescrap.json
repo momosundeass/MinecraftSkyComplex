@@ -1,0 +1,20 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    " X ",
+    "XMX",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "cyclic:gem_obsidian"
+    },
+	"M": {
+	  "item": "netherite_dwny:netherite_ore"
+	}
+  },
+  "result": {
+    "item": "netherite_dwny:netheritescrap",
+	"count": 2
+  }
+}
