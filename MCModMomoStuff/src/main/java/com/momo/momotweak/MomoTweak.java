@@ -22,6 +22,7 @@ import java.util.stream.Collectors;
 @Mod("momotweak")
 public class MomoTweak
 {
+	public static final String MOD_ID = "momotweak";
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
@@ -34,9 +35,12 @@ public class MomoTweak
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
         // Register the doClientStuff method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
-
+        
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+    
+    
+        ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
     private void setup(final FMLCommonSetupEvent event)
