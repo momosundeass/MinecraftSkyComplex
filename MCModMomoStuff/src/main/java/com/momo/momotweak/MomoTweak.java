@@ -2,13 +2,17 @@ package com.momo.momotweak;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
+import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
@@ -24,7 +28,7 @@ public class MomoTweak
 {
 	public static final String MOD_ID = "momotweak";
     // Directly reference a log4j logger.
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public MomoTweak() {
         // Register the setup method for modloading
@@ -47,7 +51,6 @@ public class MomoTweak
     {
         // some preinit code
         LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
@@ -58,7 +61,6 @@ public class MomoTweak
     private void enqueueIMC(final InterModEnqueueEvent event)
     {
         // some example code to dispatch IMC to another mod
-        InterModComms.sendTo("momotweak", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
         InterModComms.sendTo("momotweak", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
     }
 
@@ -86,4 +88,23 @@ public class MomoTweak
             LOGGER.info("HELLO from Register Block");
         }
     }
+
+	@EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
+	public static class MomoTweakDataGenerator {
+	
+	    @SubscribeEvent
+	    public static void gatherData(GatherDataEvent event) {
+	    	MomoTweak.LOGGER.info("MOMOTWEAK : Data generator");
+	        DataGenerator gen = event.getGenerator();
+	        if (event.includeClient()) {
+	            //Client side data generators
+	
+	        }
+	        if (event.includeServer()) {
+	            //Server side data generators
+	        	MomoTweak.LOGGER.info("MOMOTWEAK : Server data generator");
+	            gen.addProvider(new MomoTweakRecipeProvider(gen));
+	        }
+	    }
+	}
 }
