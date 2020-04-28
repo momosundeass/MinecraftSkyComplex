@@ -576,7 +576,7 @@
 
 		[world.cave_crystal_underground_biome.biome_settings]
 			"Horizontal Size" = 42
-			Rarity = 120
+			Rarity = 140
 			"Min Y Level" = 0
 			"Horizontal Variation" = 22
 			"Max Y Level" = 64
@@ -595,7 +595,7 @@
 
 		[world.overgrown_underground_biome.biome_settings]
 			"Horizontal Size" = 52
-			Rarity = 60
+			Rarity = 80
 			"Min Y Level" = 0
 			"Horizontal Variation" = 14
 			"Max Y Level" = 64
@@ -692,7 +692,7 @@
 
 		[world.crevices.spawn_settings]
 			"Horizontal Size" = 60
-			Rarity = 100
+			Rarity = 140
 			"Min Y Level" = 15
 			"Horizontal Variation" = 20
 			"Max Y Level" = 50
@@ -715,7 +715,7 @@
 
 		[world.lush_underground_biome.biome_settings]
 			"Horizontal Size" = 52
-			Rarity = 60
+			Rarity = 80
 			"Min Y Level" = 0
 			"Horizontal Variation" = 14
 			"Max Y Level" = 64
@@ -812,7 +812,7 @@
 
 		[world.spider_nest_underground_biome.biome_settings]
 			"Horizontal Size" = 26
-			Rarity = 120
+			Rarity = 160
 			"Min Y Level" = 0
 			"Horizontal Variation" = 14
 			"Max Y Level" = 64
@@ -831,7 +831,7 @@
 
 		[world.brimstone_underground_biome.biome_settings]
 			"Horizontal Size" = 52
-			Rarity = 80
+			Rarity = 120
 			"Min Y Level" = 0
 			"Horizontal Variation" = 14
 			"Max Y Level" = 64
@@ -997,7 +997,7 @@
 
 		[world.glowshroom_underground_biome.biome_settings]
 			"Horizontal Size" = 52
-			Rarity = 120
+			Rarity = 140
 			"Min Y Level" = 0
 			"Horizontal Variation" = 14
 			"Max Y Level" = 64
