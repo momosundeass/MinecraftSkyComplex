@@ -73,3 +73,4 @@ craftingTable.addShaped("new_cyc_cry", cyc_cry,
 		[glass, mek_cry, glass],
 		[ob, ob, ob]
 	]);
+craftingTable.removeRecipe(<item:cyclic:collector>);
