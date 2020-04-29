@@ -72,7 +72,7 @@ for name in woodTypes {
 	craftingTable.addShaped(name + "_stick_fixed", stick * 4, [[panels], [panels]]);
 	
 	val ladder = BracketHandlers.getItem("ilikewood:" + name + "_ladder");
-	craftingTable.addShaped(name + "_ladder_fixed", stick * 3, 
+	craftingTable.addShaped(name + "_ladder_fixed", ladder * 2, 
 	[
 		[stick, a, stick], 
 		[stick, stick, stick], 
