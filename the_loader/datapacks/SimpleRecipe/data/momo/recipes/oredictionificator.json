@@ -1,0 +1,22 @@
+{
+    "type": "extendedcrafting:shaped_table",
+  	"pattern": [
+		"AGCGA",
+		"G   G",
+		"C D C",
+		"G   G",
+		"AGEGA"
+	],
+	
+	"key": {
+		"G": {"tag": "forge:glass_panes" },
+		"A": {"tag": "forge:ingots/steel" },
+		"D": {"item": "mekanism:dictionary" },
+		"E": {"tag": "forge:chests" },
+		"C": {"item": "mekanism:basic_control_circuit"}
+	},
+	
+	"result": {
+		"item": "mekanism:oredictionificator"
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "type": "extendedcrafting:shaped_table",
+  	"pattern": [
+		"       ",
+		"LLLL   ",
+		"LAAEEL ",
+		"ADSDELD",
+		"LAAEEL ",
+		"LLLL   ",
+		"       "
+	],
+	
+	"key": {
+		"L": {"tag": "forge:glass" },
+		"D": {"item": "minecraft:diamond" },
+		"E": {"item": "mekanism:energy_tablet" },
+		"A": {"item": "mekanism:alloy_reinforced" },
+		"S": {"item": "mekanism:steel_casing" }
+	},
+	
+	"result": { "item": "mekanism:laser" }
+}

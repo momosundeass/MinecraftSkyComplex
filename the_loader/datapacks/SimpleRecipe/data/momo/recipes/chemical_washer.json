@@ -1,0 +1,23 @@
+{
+    "type": "extendedcrafting:shaped_table",
+  	"pattern": [
+		"LLLLL",
+		"LCBCL",
+		"LASAL",
+		"LCGCL",
+		"LLLLL"
+	],
+	
+	"key": {
+		"G": {"item": "mekanism:basic_gas_tank" },
+		"A": {"item": "mekanism:alloy_infused" },
+		"B": {"item": "minecraft:bucket" },
+		"S": {"item": "mekanism:steel_casing" },
+		"C": {"item": "mekanism:basic_control_circuit"},
+		"L": {"tag": "forge:glass" }
+	},
+	
+	"result": {
+		"item": "mekanism:chemical_washer"
+	}
+}

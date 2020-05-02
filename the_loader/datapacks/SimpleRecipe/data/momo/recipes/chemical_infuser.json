@@ -1,0 +1,22 @@
+{
+    "type": "extendedcrafting:shaped_table",
+  	"pattern": [
+		"AGCGA",
+		"G   G",
+		"CBTBC",
+		"G   G",
+		"AGCGA"
+	],
+	
+	"key": {
+		"G": {"tag": "forge:ingots/tin" },
+		"A": {"item": "mekanism:alloy_infused" },
+		"B": {"item": "mekanism:basic_gas_tank" },
+		"T": {"item": "mekanism:steel_casing" },
+		"C": {"item": "mekanism:basic_control_circuit"}
+	},
+	
+	"result": {
+		"item": "mekanism:chemical_infuser"
+	}
+}

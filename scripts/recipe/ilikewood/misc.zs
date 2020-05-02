@@ -1,0 +1,1 @@
+craftingTable.addShapeless("stick_to_stick", <item:minecraft:stick>, [<tag:ilikewood:sticks>]);

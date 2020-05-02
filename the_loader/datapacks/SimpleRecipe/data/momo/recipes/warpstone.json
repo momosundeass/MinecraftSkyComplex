@@ -3,16 +3,15 @@
 	"pattern": [
 		"XPPPPPX",
 		"PXXAXXP",
-		"PXXCXXP",
-		"PACECAP",
-		"PXXCXXP",
+		"PXECEXP",
+		"PACTCAP",
+		"PXECEXP",
 		"PXXAXXP",
 		"XPPPPPX"
 	],
 	"key": {
-		"E": {
-			"item": "minecraft:emerald"
-		},
+		"E": { "item": "minecraft:emerald" },
+		"T": { "item": "mekanism:teleportation_core" },
 		"P": {
 			"tag": "forge:dyes/purple"
 		},

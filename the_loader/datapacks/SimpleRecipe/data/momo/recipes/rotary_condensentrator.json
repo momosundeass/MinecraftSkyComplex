@@ -1,0 +1,22 @@
+{
+    "type": "extendedcrafting:shaped_table",
+  	"pattern": [
+		"GGCGG",
+		"G   G",
+		"CBEFC",
+		"G   G",
+		"GGCGG"
+	],
+	
+	"key": {
+		"G": {"tag": "forge:glass" },
+		"B": {"item": "mekanism:basic_gas_tank"},
+		"E": {"item": "mekanism:energy_tablet" },
+		"F": {"item": "mekanism:basic_fluid_tank" },
+		"C": {"item": "mekanism:basic_control_circuit"}
+	},
+	
+	"result": {
+		"item": "mekanism:rotary_condensentrator"
+	}
+}

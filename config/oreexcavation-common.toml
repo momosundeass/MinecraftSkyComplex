@@ -16,7 +16,7 @@
 	"Invert Tool Blacklist" = false
 	#How far from the origin an excavation can travel
 	#Range: > 1
-	Range = 16
+	Range = 32
 	#Amount of exaustion per block excavated
 	#Range: 0.0 ~ 1.7976931348623157E308
 	Exaustion = 0.5
