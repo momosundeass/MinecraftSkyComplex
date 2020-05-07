@@ -1,0 +1,21 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "       ",
+    "       ",
+    " SIIIS ",
+    "SIIIIIS",
+    "SI   IS",
+    "SI   IS",
+    "SI   IS"
+  ],
+  
+  "key": {
+	"S": { "item": "mekanism:hdpe_stick" },
+	"I": { "item": "mekanism:ingot_refined_obsidian" }
+  },
+  
+  "result": {
+    "item": "mekanismtools:refined_obsidian_leggings"
+  }
+}

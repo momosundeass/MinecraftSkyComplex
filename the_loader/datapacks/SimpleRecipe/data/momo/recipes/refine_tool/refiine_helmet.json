@@ -1,0 +1,21 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "       ",
+    "       ",
+    "       ",
+    " SSSS  ",
+    "SIIIIS ",
+    "II  II ",
+    "SI  IS "
+  ],
+  
+  "key": {
+	"S": { "item": "mekanism:hdpe_stick" },
+	"I": { "item": "mekanism:ingot_refined_obsidian" }
+  },
+  
+  "result": {
+    "item": "mekanismtools:refined_obsidian_helmet"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "extendedcrafting:shaped_table",
+  	"pattern": [
+		"CGGGC",
+		"GCBCG",
+		"GASAG",
+		"GCBCG",
+		"CGGGC"
+	],
+	
+	"key": {
+		"G": {"tag": "forge:ingots/tin" },
+		"A": {"item": "mekanism:alloy_infused" },
+		"S": {"item": "mekanism:alloy_atomic" },
+		"B": {"item": "mekanism:basic_gas_tank" },
+		"C": {"item": "mekanism:basic_control_circuit"}
+	},
+	
+	"result": {
+		"item": "mekanism:chemical_dissolution_chamber"
+	}
+}

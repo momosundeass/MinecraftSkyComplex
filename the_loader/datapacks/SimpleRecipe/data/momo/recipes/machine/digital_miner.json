@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+  	"pattern": [
+		"  TTT  ",
+		"GT###TG",
+		"GT#B#TG",
+		"SSRRRSS",
+		"GTTCTTG",
+		"GTTCTTG",
+		"GGGGGGG"
+	],
+	
+	"key": {
+		"G": {"tag": "forge:ingots/bronze" },
+		"T": {"tag": "forge:glass" },
+		"S": {"item": "mekanism:logistical_sorter" },
+		"B": {"item": "mekanism:steel_casing" },
+		"C": {"item": "mekanism:teleportation_core" },
+		"R": {"item": "mekanism:robit"},
+		"#": {"item": "mekanism:basic_control_circuit" }
+	},
+	
+	"result": {
+		"item": "mekanism:digital_miner"
+	}
+}

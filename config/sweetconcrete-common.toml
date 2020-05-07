@@ -8,9 +8,11 @@
 	enableButtons = true
 	#Enable concrete signs
 	enableSigns = true
+	#Enable concrete powder layers
+	enablePowderLayers = true
 	#Enable concrete stairs
 	enableStairs = true
-	#Enable vertical slabs
+	#Enable concrte vertical slabs
 	enableVerticalSlabs = true
 	#Enable concrete walls
 	enableWalls = true

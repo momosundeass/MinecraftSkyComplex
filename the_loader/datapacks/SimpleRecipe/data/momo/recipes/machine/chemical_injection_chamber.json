@@ -1,0 +1,22 @@
+{
+    "type": "extendedcrafting:shaped_table",
+  	"pattern": [
+		"TTTTT",
+		"TSCST",
+		"GGBGG",
+		"TSCST",
+		"TTTTT"
+	],
+	
+	"key": {
+		"T": {"tag": "forge:ingots/tin" },
+		"G": {"tag": "forge:ingots/gold" },
+		"S": {"item": "mekanism:alloy_reinforced" },
+		"B": {"item": "mekanism:purification_chamber" },
+		"C": {"item": "mekanism:elite_control_circuit"}
+	},
+	
+	"result": {
+		"item": "mekanism:chemical_injection_chamber"
+	}
+}
