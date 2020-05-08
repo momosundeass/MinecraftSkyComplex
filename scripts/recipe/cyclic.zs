@@ -46,8 +46,7 @@ val quartz = <item:refinedstorage:quartz_enriched_iron>;
 val lapis = <item:minecraft:lapis_block>;
 val heater = <item:mekanism:resistive_heater>;
 val mek_cry = <item:mekanism:chemical_crystallizer>;
-val melter = <item:cyclic:melter>;
-val cyc_cry = <item:cyclic:solidifier>;
+
 
 val clickmachine = <item:clickmachine:auto_clicker>;
 craftingTable.removeRecipe(clickmachine);
@@ -57,6 +56,12 @@ craftingTable.addShaped("balanced_clickmachine", clickmachine,
 	[stone, placer, stone],
 	[redstone, redstone, redstone]
 ]);
+
+craftingTable.removeRecipe(<item:cyclic:collector>);
+
+/* uncomment this after cyclic and scaling_heart work well
+val melter = <item:cyclic:melter>;
+val cyc_cry = <item:cyclic:solidifier>;
 
 craftingTable.removeRecipe(melter);
 craftingTable.addShaped("new_melter", melter, 
@@ -73,4 +78,4 @@ craftingTable.addShaped("new_cyc_cry", cyc_cry,
 		[glass, mek_cry, glass],
 		[ob, ob, ob]
 	]);
-craftingTable.removeRecipe(<item:cyclic:collector>);
+//*/
